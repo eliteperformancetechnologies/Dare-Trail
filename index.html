@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Daily Challenge Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Daily Challenge Tracker</h1>
+    </header>
+
+    <main>
+        <section>
+            <h2>Enter Your Daily Challenges</h2>
+            <form id="challengeForm">
+                <label for="challengeDate">Date:</label>
+                <input type="date" id="challengeDate" required>
+
+                <div class="challenges">
+                    <label for="challenge1">Challenge 1:</label>
+                    <textarea id="challenge1" placeholder="Enter your challenge here..." required></textarea>
+
+                    <label for="challenge2">Challenge 2:</label>
+                    <textarea id="challenge2" placeholder="Enter your challenge here..."></textarea>
+
+                    <label for="challenge3">Challenge 3:</label>
+                    <textarea id="challenge3" placeholder="Enter your challenge here..."></textarea>
+
+                    <label for="challenge4">Challenge 4:</label>
+                    <textarea id="challenge4" placeholder="Enter your challenge here..."></textarea>
+
+                    <label for="challenge5">Challenge 5:</label>
+                    <textarea id="challenge5" placeholder="Enter your challenge here..."></textarea>
+                </div>
+
+                <button type="submit">Save Challenges</button>
+            </form>
+        </section>
+
+        <section id="savedChallenges">
+            <h2>Saved Challenges</h2>
+            <!-- Saved challenges will be displayed here -->
+        </section>
+    </main>
+    <h3 align="center" style="color:#6e604f;">by Elite Performance Technologies</h3>
+
+    <script src="script.js"></script>
+</body>
+</html>
